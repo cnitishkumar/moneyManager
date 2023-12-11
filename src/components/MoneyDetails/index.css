@@ -1,0 +1,57 @@
+.money-details-tab {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  border-radius: 10px;
+  padding: 20px;
+}
+.balance-container {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+
+.balance-image {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+}
+
+.income-container {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+
+.your-balance {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.amount {
+  font-size: 22px;
+  margin: 0px;
+  color: #334155;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .money-details-tab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 700px;
+  }
+  .container {
+    width: 100%;
+    margin-top: 15px;
+
+    justify-content: start;
+  }
+}

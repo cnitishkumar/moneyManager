@@ -1,0 +1,22 @@
+.list-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #7e858e;
+}
+.delete-icon {
+  height: 30px;
+  width: 30px;
+}
+.delete-btn {
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+  background-color: transparent;
+  align-self: flex-end;
+}
+.history-title {
+  color: black;
+  font-weight: 500;
+  margin-left: 13%;
+  margin-right: 10%;
+}
